@@ -1,0 +1,41 @@
+/* Add these styles to your global styles or create a separate CSS file */
+
+.view-container {
+    max-width: 800px;
+    margin: 20px auto;
+    text-align: center;
+  }
+  
+  .view-title {
+    color: #2c3e50;
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .view-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+  }
+  
+  .view-table th, .view-table td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: left;
+  }
+  
+  .view-table th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+  }
+  
+  .view-table tr:hover {
+    background-color: #f5f5f5;
+  }
+  
+  /* Center the table when empty */
+  .view-table.empty-table {
+    margin: 0 auto;
+    width: auto;
+  }
+  

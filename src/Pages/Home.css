@@ -1,0 +1,85 @@
+/* Home.css */
+
+body {
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+   /* Set a background color for the body */
+}
+
+.home-container {
+  padding: 20px;
+}
+
+.home-title {
+  color: #2c3e50;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+/* Style for the cards */
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  justify-content: center; /* Center the cards horizontally */
+}
+
+/* Style for individual cards */
+.card {
+  width: 400px; /* Set a larger width for the cards */
+  height: 300px; /* Set a larger height for the cards */
+  box-sizing: border-box;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between; /* Align items vertically */
+}
+
+/* Style for card content */
+.card-content {
+  flex: 1; /* Grow to fill available space */
+}
+
+/* Style for buttons */
+.card-button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 3px 12px; /* Smaller padding for the buttons */
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 17px;
+  font-weight: bolder; /* Adjust the font size of the buttons */
+}
+
+.card-button:hover {
+  background-color: #45a049;
+}
+
+/* Home.css */
+
+/* Add this class for the floating effect on hover */
+.card:hover {
+  transform: translateY(-10px);
+  transition: transform 0.3s ease-in-out;
+}
+
+/* Style for individual cards */
+.card {
+  /* Existing styles */
+  width: 400px;
+  height: 300px;
+  box-sizing: border-box;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between; /* Align items vertically */
+  cursor: pointer; /* Add cursor pointer for better user experience */
+}
